@@ -8,7 +8,7 @@ const manager = new WebSocketManager({
   token: process.env.DISCORD_TOKEN,
   intents: 112192, // see https://discord-intents-calculator.vercel.app/
   rest,
-  compression: CompressionMethod.ZlibStream,
+  // compression: CompressionMethod.ZlibStream,
 });
 
 manager.on(WebSocketShardEvents.Dispatch, async (event) => {
