@@ -18,3 +18,9 @@ Right now, the cloud version of this service is designed specifically for Val To
 
 TODO: bear with me...
 
+# Development
+
+Install with `bun install`
+
+Run with `bun run index.ts`
+
